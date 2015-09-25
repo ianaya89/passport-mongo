@@ -9,6 +9,6 @@ Demo app of how to authenticate users in [NodeJS](https://nodejs.org/en/) using 
 2. Open a terminal and locate repo directory.
 3. Run `$ npm install`
 
-## Runs
+## Run
 1. Open a terminal and locate repo directory.
 2. Run `$ npm start`
