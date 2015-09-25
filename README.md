@@ -1,13 +1,14 @@
-passport-mongo
-==============
+#passport-mongo
+Demo app of how to authenticate users in [NodeJS](https://nodejs.org/en/) using [Passport](http://passportjs.org/) and [MongoDB](https://www.mongodb.org/).
 
-This repository serves as an example of a basic Node.js application which is using [Passport](http://passportjs.org/) as the authentication middleware for authenticating against a locally configured Mongo backend
+## Perquisites
+*MongoDB installed and running.
 
-Steps to run the app
-=====================
-* After cloning the repo, install the dependencies by running **npm install**
-* To start the server, run **npm start** on the base directory
+## Install
+1. Clone repository
+2. Open a terminal and locate repo directory.
+3. Run `$ npm install`
 
-Perquisites
-============
-The server assumes that you have a local mongo instance running. This means if you have mongo installed locally, all you need to do is configure the db.js file correctly and run the mongod daemon
+## Runs
+1. Open a terminal and locate repo directory.
+2. Run `$ npm start`
