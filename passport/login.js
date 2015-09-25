@@ -9,7 +9,7 @@ module.exports = function(passport) {
 
     function(req, username, password, done) { 
         User.findOne({ 
-            username :  username 
+            'username' :  username 
         }, 
 
         function(err, user) {
