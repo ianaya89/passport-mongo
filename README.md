@@ -2,7 +2,7 @@
 Demo app of how to authenticate users in [NodeJS](https://nodejs.org/en/) using [Passport](http://passportjs.org/) and [MongoDB](https://www.mongodb.org/).
 
 ## Perquisites
-*MongoDB installed and running.
+* MongoDB installed and running.
 
 ## Install
 1. Clone repository
