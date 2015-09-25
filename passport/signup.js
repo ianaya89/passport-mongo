@@ -9,7 +9,7 @@ module.exports = function(passport) {
     },
 
     function(req, username, password, done) {
-        findOrCreateUser = function() {
+        var findOrCreateUser = function() {
             User.findOne({ 'username' :  username }, function(err, user) {
                 if (err) {
                     return done(err);

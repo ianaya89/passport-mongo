@@ -38,6 +38,19 @@ module.exports = function(passport) {
 		req.logout();
 		res.redirect('/');
 	});
+	
+	
+	router.get('/login/facebook', 
+		passport.authenticate('facebook', { scope : 'email' }
+	));
+
+
+	router.get('/login/facebook/callback',
+		passport.authenticate('facebook', {
+			successRedirect : '/home',
+			failureRedirect : '/'
+		})
+	);
 
 	return router;
 };
