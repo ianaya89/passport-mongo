@@ -32,7 +32,6 @@ app.use(passport.session());
 
 app.use(flash());
 
-
 initPassport(passport);
 
 var routes = require('./routes/index')(passport);
